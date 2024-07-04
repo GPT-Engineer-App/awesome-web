@@ -24,6 +24,16 @@ const Layout = () => {
       <main className="flex-grow p-4 overflow-auto">
         <Outlet />
       </main>
+      <footer className="border-t py-4 text-center">
+        <div className="container mx-auto">
+          <div className="flex justify-center space-x-4 mb-4">
+            <a href="#" className="text-muted-foreground hover:text-foreground">Facebook</a>
+            <a href="#" className="text-muted-foreground hover:text-foreground">Twitter</a>
+            <a href="#" className="text-muted-foreground hover:text-foreground">Instagram</a>
+          </div>
+          <p className="text-muted-foreground">&copy; 2023 Your Company. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 };
